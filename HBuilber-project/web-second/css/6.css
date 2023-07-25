@@ -1,0 +1,67 @@
+.container {
+	background-color: pink;
+	display: grid;
+	grid-template-columns: repeat(3, 100px);
+	grid-template-rows: repeat(3, 100px);
+	height: 320px;
+	grid-row-gap: 10px;
+	grid-column-gap: 10px;
+	grid-template-areas: 'a b c'
+		'd e f'
+		'g h j';
+	width: 400px;
+	height: 400px;
+	margin: 50px auto;
+	padding 20px;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	line-height: 100px;
+	font-size: 40px;
+}
+
+.itemOne {
+	background-color: red;
+	grid-area: a;
+}
+
+.itemTwo {
+	background-color: orange;
+	grid-area: d;
+}
+
+.itemThree {
+	background-color: green;
+	grid-area: g;
+}
+
+.itemFour {
+	background-color: royalblue;
+	grid-area: b;
+	grid-
+}
+
+.itemFive {
+	background-color: plum;
+	grid-area: e;
+}
+
+.itemSix {
+	background-color: wheat;
+	grid-area: h;
+}
+
+.itemSeven {
+	background-color: burlywood;
+	grid-area: c;
+}
+
+.itemEight {
+	background-color: greenyellow;
+	grid-area: f;
+}
+
+.itemNine {
+	background-color: skyblue;
+	grid-area: j;
+}

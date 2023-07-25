@@ -1,0 +1,35 @@
+.container{
+	width: 400px;
+	height: 400px;
+	margin: 50px auto;
+	position: relative;
+}
+.boxOne,.boxTwo{
+	box-sizing: border-box;
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 150px;
+	left: 150px;
+}
+.boxOne{
+	border: 3px solid red;
+	animation: one 2s infinite;
+}
+.boxTwo{
+	border: 3px solid blue;
+	animation: two 4s infinite;
+}
+@keyframes one{
+	25% {transform: rotate(45deg);}
+	50% {transform: rotate(90deg);}
+	75% {transform: rotate(45deg);}
+	100% {transform: rotate(0deg);}
+}
+@keyframes two{
+	25% {transform: rotate(-45deg);}
+	50% {transform: rotate(-90deg);}
+	75% {transform: rotate(-45deg);}
+	100% {transform: rotate(-0deg);}
+}
+
